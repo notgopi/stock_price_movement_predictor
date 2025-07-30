@@ -1,5 +1,6 @@
 # stock_llm
 building...
 
-1. GOAL???
+1. Predict the movement of a stock...
 2. Build dataset
+3. Test
