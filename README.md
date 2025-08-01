@@ -1,6 +1,6 @@
-# stock_llm
+# stock price movement predictor
 building...
 
 1. Predict the movement of a stock...
 2. Build dataset
-3. Test
+3. Random forest classifier
