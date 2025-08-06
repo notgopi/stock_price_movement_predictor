@@ -17,5 +17,7 @@ request_params = StockBarsRequest(
 )
 
 barset = client.get_stock_bars(request_params)
-
 df = barset.df.reset_index()
+
+#store it in a csv file
+df.to_csv("stock_price.csv", index=False)
