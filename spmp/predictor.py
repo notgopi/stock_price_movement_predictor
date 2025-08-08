@@ -14,7 +14,7 @@ import indicators
 stock_data = pd.read_csv('stock_price.csv')
 stock_data.head()
 
-stock_data = stock_data[['symbol','datetime','close','high','low','open','volume']]
+stock_data = stock_data[['Symbol','Date','Close','High','Low','Open','Volume']]
 
 #sort the data and calculate the difference of closing prices
 stock_data.sort_values(by = ['symbol','datetime'], inplace = True)
