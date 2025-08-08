@@ -12,7 +12,6 @@ from sklearn.metrics import accuracy_score, classification_report
 import indicators
 
 stock_data = pd.read_csv('stock_price.csv')
-stock_data.head()
 
 stock_data = stock_data[['Symbol','Date','Close','High','Low','Open','Volume']]
 
