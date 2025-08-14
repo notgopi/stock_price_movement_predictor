@@ -5,5 +5,6 @@ This model uses Random Forest Algorithm to predict the movement of a stock price
 2. Build dataset
 3. Calculate the indicators
 4. Random forest classifier
+5. Test the model and evaluate various metrics
 
 To predict the movement of a stock even more ahead of time we employ a Time based approach using LSTM model.
